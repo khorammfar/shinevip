@@ -1,6 +1,6 @@
 export const config = { runtime: "edge" };
 
-const TARGET_BASE = "http://65.21.7.203:53929/shine"
+const TARGET_BASE = "http://65.21.7.203:53929"
 // (process.env.TARGET_DOMAIN || "").replace(/\/$/, "");
 
 const STRIP_HEADERS = new Set([
